@@ -1,9 +1,9 @@
 
-boot.bin: boot.asm
-	asm02 -L -b boot.asm
-	rm -f boot.build
+reboot.bin: reboot.asm
+	asm02 -L -b reboot.asm
+	rm -f reboot.build
 
 clean:
-	rm -f boot.lst
-	rm -f boot.bin
+	rm -f reboot.lst
+	rm -f reboot.bin
 

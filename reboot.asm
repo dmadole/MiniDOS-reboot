@@ -33,7 +33,7 @@ begin:      br    start
             db    11+80h
             db    2
             dw    2024
-            dw    start
+            dw    2
 
             db    'See github/dmadole/MiniDOS-reboot for more information',0
 
